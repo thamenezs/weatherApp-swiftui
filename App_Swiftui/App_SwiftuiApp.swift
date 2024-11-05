@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-@main
+@main //unique indication needed to point the entry point of the application
 struct App_SwiftuiApp: App {
     var body: some Scene {
         WindowGroup {
