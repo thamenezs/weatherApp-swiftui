@@ -84,7 +84,7 @@ struct ContentView: View {
                 Text("PREVISÃO POR HORA")
                     .foregroundStyle(Color.white)
                     .font(.system(size: 16, weight: .bold))
-                    .padding(EdgeInsets(top: 50, leading: 0, bottom: 0, trailing: 0))
+                    .padding(EdgeInsets(top: 52, leading: 0, bottom: 0, trailing: 0))
                 ScrollView(.horizontal){
                     LazyHGrid(rows: rows, spacing: 10){
                         ForEach(0..<8){_ in
